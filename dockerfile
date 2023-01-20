@@ -1,7 +1,7 @@
 FROM centos:7
 LABEL Name="Shahbaz"
 LABEL Emailid="alam.ggmail.com"
-RUN yum install -y apache2
+RUN yum install -y httpd
 RUN yum install -y zip
 RUN yum install -y unzip
 WORKDIR /var/www/html
